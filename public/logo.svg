@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="potGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="50%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+    <linearGradient id="hatGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fef3c7" />
+    </linearGradient>
+    <filter id="cuteShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#7c2d12" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background Soft Circle Badge -->
+  <circle cx="60" cy="60" r="56" fill="#fffbeb" stroke="#fde68a" stroke-width="2" />
+  <circle cx="60" cy="60" r="51" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3 3" />
+
+  <!-- Aromatic Warm Steam Clouds -->
+  <path d="M42 32 C38 25, 46 20, 44 14" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.75" />
+  <path d="M60 28 C64 22, 58 17, 62 11" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+  <path d="M78 32 C74 25, 82 20, 80 14" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.75" />
+
+  <!-- Cute Chef Hat tilted playfully -->
+  <g transform="translate(48, 16) rotate(-8)" filter="url(#cuteShadow)">
+    <!-- Hat Puffs -->
+    <ellipse cx="8" cy="12" rx="7" ry="8" fill="url(#hatGrad)" />
+    <ellipse cx="16" cy="8" rx="8" ry="9" fill="url(#hatGrad)" />
+    <ellipse cx="24" cy="12" rx="7" ry="8" fill="url(#hatGrad)" />
+    <!-- Hat Base Band -->
+    <rect x="5" y="15" width="22" height="7" rx="3" fill="#ffffff" stroke="#f59e0b" stroke-width="1" />
+    <!-- Little Red/Orange Ribbon -->
+    <rect x="5" y="19" width="22" height="2" fill="#ea580c" />
+  </g>
+
+  <!-- Left Pot Handle -->
+  <rect x="18" y="58" width="10" height="7" rx="3.5" fill="#9a3412" />
+  <!-- Right Pot Handle -->
+  <rect x="92" y="58" width="10" height="7" rx="3.5" fill="#9a3412" />
+
+  <!-- Main Cute Cooking Pot -->
+  <g filter="url(#cuteShadow)">
+    <!-- Pot Body -->
+    <path d="M26 54 Q24 92 60 92 Q96 92 94 54 Z" fill="url(#potGrad)" />
+    <!-- Pot Rim Lip -->
+    <rect x="23" y="50" width="74" height="7" rx="3.5" fill="#c2410c" />
+    <!-- Golden Soup Surface -->
+    <ellipse cx="60" cy="51" rx="32" ry="3" fill="#fef08a" opacity="0.9" />
+  </g>
+
+  <!-- Cute Pot Face -->
+  <!-- Left Happy Eye (curved smile arc) -->
+  <path d="M44 68 Q48 63 52 68" fill="none" stroke="#451a03" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Right Happy Eye (curved smile arc) -->
+  <path d="M68 68 Q72 63 76 68" fill="none" stroke="#451a03" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Rosy Pink Blush Cheeks -->
+  <circle cx="41" cy="74" r="3.5" fill="#fca5a5" opacity="0.8" />
+  <circle cx="79" cy="74" r="3.5" fill="#fca5a5" opacity="0.8" />
+
+  <!-- Cute Happy Smile -->
+  <path d="M55 74 Q60 81 65 74" fill="none" stroke="#451a03" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Little Tongue inside smile -->
+  <path d="M57 76 Q60 79 63 76" fill="#f87171" opacity="0.9" />
+
+  <!-- Fresh Green Sprout on Pot Rim -->
+  <g transform="translate(85, 43) rotate(20)">
+    <path d="M0 8 Q-4 0 4 -4 Q4 4 0 8 Z" fill="#22c55e" />
+    <path d="M0 8 Q4 0 -4 -4 Q-4 4 0 8 Z" fill="#16a34a" />
+    <path d="M0 8 L0 11" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Tiny Sparkle Star on Cheek -->
+  <path d="M36 58 L37.5 61 L40.5 61.5 L38 63.5 L39 66.5 L36.5 64.5 L34 66.5 L35 63.5 L32.5 61.5 L35.5 61 Z" fill="#fef08a" transform="scale(0.5) translate(38, 55)" />
+</svg>

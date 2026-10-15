@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#c2410c" />
+  <circle cx="50" cy="50" r="42" fill="#ea580c" />
+  
+  <!-- Tiny Chef Hat -->
+  <path d="M42 26 C40 20, 50 18, 50 24 C52 18, 60 20, 58 26 Z" fill="#ffffff" />
+  <rect x="42" y="25" width="16" height="4" rx="2" fill="#fef3c7" stroke="#9a3412" stroke-width="0.8" />
+  
+  <!-- Pot Handles -->
+  <rect x="14" y="48" width="8" height="6" rx="3" fill="#7c2d12" />
+  <rect x="78" y="48" width="8" height="6" rx="3" fill="#7c2d12" />
+
+  <!-- Pot Rim & Body -->
+  <rect x="20" y="44" width="60" height="6" rx="3" fill="#9a3412" />
+  <path d="M22 47 Q20 78 50 78 Q80 78 78 47 Z" fill="#f97316" />
+
+  <!-- Cute Eyes -->
+  <path d="M38 58 Q41 54 44 58" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M56 58 Q59 54 62 58" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Blush Cheeks -->
+  <circle cx="34" cy="62" r="3" fill="#fca5a5" />
+  <circle cx="66" cy="62" r="3" fill="#fca5a5" />
+
+  <!-- Cute Smile -->
+  <path d="M46 63 Q50 68 54 63" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Tiny Green Sprout -->
+  <path d="M72 40 Q70 34 76 32 Q78 37 72 40 Z" fill="#4ade80" />
+</svg>
